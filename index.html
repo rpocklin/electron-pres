@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>E for Electron</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <article>
+      <section>
+        <div style="display: inline-block"><img src="images/electron.png" width="300px" style="border-radius: 5px" class="right"></div><br>
+        <h2 style="font-size: 250%;"><span style="color: #aaccaa">E for Electron</span></h2>
+        <!--span.small 0.7.1--><br>
+      </section>
+      <section><br><br>
+        <h2>Quick Intro</h2>
+        <li></li>
+        <li>Rob Pocklington</li>
+        <li>Full-stack developer my whole career</li>
+        <li>Java, Ruby, Groovy, Scala, Node + JS</li>
+        <li>Worked at the usual suspects (<span style="color: #6699ff">MYOB</span>, <span style="color: #66aaff">Sportsbet</span>, <span style="color: #99ccff">Seek</span>)</li>
+        <li>Currently @ <span style="color: #cc6666">NAB</span> in Docklands (Internet Banking)<br/><br/></li>
+      </section>
+      <section><br>
+        <h2 style="color: #ddcc88">Overview</h2>
+        <li style="height: 10px"></li>
+        <li><b>News</b></li>
+        <li>Web pulse check</li>
+        <li style="height: 10px"></li>
+        <li><b>Electron</b></li>
+        <li>History and Architecture</li>
+        <li>Features + Benefits</li>
+        <li>A Real Example</li>
+        <li>Issues</li>
+        <li>Closing Thoughts</li>
+        <li></li>
+        <!--(recommendations, crystal ball, start with a remote webserver)-->
+        <!--li - aurelia, angular 2, nativebase etc. react, react-native, ionic2 (wrapping cordova)-->
+        <!--li Is web dead / dying?-->
+        <!--li Existing angular 1.4 app, using bower, not shiny ES6 with webpack.  Ie: probably what you have in production now-->
+        <!--li Issues Faced-->
+        <!--li Debugging-->
+        <!--li Overview / History / Architecture (Atom,-->
+        <!--li Benefits (more CPU, )-->
+        <!--li Features (local access, db access, cross-domains, updating, online-offline, service workers / backend)-->
+        <!--li strangely, you can't access the GPS from the main thread... ?)-->
+        <!--li Problems (viruses, versioning, updates / feature toggles / 2 phase models / db, test diff platforms)-->
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc88aa">Web Pulse Check</h2>
+        </li>
+        <li></li>
+        <li>Angular 2 - Google</li>
+        <li>Ionic v1.3 (angular.js 1.5)</li>
+        <li>React v15.4.0 - Facebook</li>
+        <li>Aurelia v1.07 - Rob Eisenberg<br/><br/><br/></li>
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc88aa">Web Pulse Check</h2>
+        </li>
+        <li></li>
+        <li>Nativescript v2.4.0 - Telerik</li>
+        <li>React-Native v0.37.0 - Facebook</li>
+        <li>Exponent v11.0<br/><br/><br/></li>
+        <!-- RN will support Ubuntu and Windows, and supports Mac OSX-->
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc88aa">Web Pulse Check (cont ...)</h2>
+        </li>
+        <li></li>
+        <li>Arc welder App 54.5 (Android on Desktop)</li>
+        <li>NW.js v0.18.7</li>
+        <li>Electron v1.4.7<br/><br/><br/></li>
+        <!-- http://arcwelder.proweb.info/-->
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc88aa">Electron - History</h2>
+        </li>
+        <li style="font-size: 18px">Invented by Github in 2013 (previously atom-shell)</li>
+        <li></li>
+        <li style="font-size: 22px">Allows developers to create cross-platform desktop apps with web technologies<br/><br/><br/><br/><br/></li>
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc88aa">Electron - Architecture</h2>
+        </li>
+        <li style="font-size: 18px">Server-side Node.js + Chromium browser<br/><br/></li>
+        <li><img src="images/arch.png" width="300px" style="border-radius: 5px" class="right"></li><br><br>
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc88aa">Electron (cont ...)</h2>
+        </li>
+        <li>
+          <h2>Abstracting Too Much?</h2>
+        </li>
+        <li>GWT / EXT.js</li>
+        <li>Cordova / Phonegap / Ionic<br/><br/><br/><br/></li>
+        <!-- HISTORY-->
+        <!-- ARCHIRECTURE-->
+        <!--li Separate render and main thread<br/>(think: service workers++)-->
+        <!--  h2(style="color: #cc88aa") Electron (cont ...)-->
+        <!--li-->
+        <!--li Usually, this stuff fails terribly.-->
+        <!--li I believe this is not one of those times.-->
+        <!--li-->
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #8888cc">Benefits</h2>
+        </li>
+        <li></li>
+        <li>Multi-platform (Linux + Windows + Mac OSX + ARM)</li>
+        <li>Combine fast native binaries with familiar web code<br/><br/></li>
+        <li>Frontend framework agnostic (Webpack + ES6 recommended)<br/><br/><br/></li>
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #8888cc">Benefits (cont ...)</h2>
+        </li>
+        <li></li>
+        <li>Builds off a stable base (Chromium, Node.js)</li>
+        <li>Download and install<br/>(just like the old days!)</li>
+        <li>Full Node.js on the client (endless possibilities)<br/></li>
+        <li>Can leverage any existing Node.js library<br/><br/></li>
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc99cc">Main Features</h2>
+        </li>
+        <li></li>
+        <li>Superset of browser features<br/>IndexedDB, Local Storage etc.</li>
+        <li>System-level access (file / database)</li>
+        <li>No CORS issues / browser sandboxing<br/><br/><br/></li>
+      </section>
+      <section>
+        <li>
+          <h2 style="color: #cc99cc">Main Features (cont ...)</h2>
+        </li>
+        <li></li>
+        <li>Right-click context menu support</li>
+        <li>OS Menubar / Windows / Drag + drop</li>
+        <li>System tray + Taskbar (eg. Slack / Rdio)</li>
+        <li>Auto-updates (or prompted updates)</li>
+        <li>Crash-reporting</li>
+        <li>Flash plugin support (via pepper-plugin)<br/></li>
+        <!-- copy and paste-->
+      </section>
+      <section>
+        <h2 style="color: #99cc00">Example<br/><br/><br/><br/><br/><br/></h2>
+      </section>
+      <section>
+        <h2 style="color: #ccaa33">Testing</h2>
+        <li></li>
+        <li><span style="color: #8888cc">Mocha</span> / <span style="color: #cc88aa">Jasmine</span> (it's just Node.js)</li>
+        <li><span style="color: #ddcc88">Spectron</span> for E2E testing<br/><br/><br/><br/></li>
+      </section>
+      <section>
+        <h2 style="color: #ccaa33">Building Issues</h2>
+        <li></li>
+        <li>Icons, iCONS and icons</li>
+        <li>Code signing (optional but recommended)</li>
+        <li>CI / CD - Travis / Appveyor for Windows</li>
+        <li>Hosting binaries<br/><br/></li>
+      </section>
+      <section>
+        <h2 style="color: #ccaa33">Developer Issues</h2>
+        <li></li>
+        <li>Communications between main and render threads<br/>(think: web workers)</li>
+        <li>Supporting updates / multi-versions / data-migrations<br/><br/></li>
+        <li>Testing multiple platforms</li>
+        <li>Source code security<br/><br/></li>
+        <!-- https://nulab-inc.com/blog/typetalk/3-necessary-things-to-correctly-release-a-product-based-on-the-electron-app/-->
+      </section>
+      <section>
+        <h2 style="color: #ccaa33">User Issues</h2>
+        <li></li>
+        <li>Users install from the Internet (safe?)</li>
+        <li>No fine-grained user permissions (eg. file / camera)</li>
+        <li>No brower sandbox, no warranty<br/><br/><b>rm -rf ~</b><br/><br/></li>
+      </section>
+      <section>
+        <h2 style="color: #aa99ff">Closing thoughts<br/></h2>
+        <li></li>
+        <li>Electron is a great + flexible framework</li>
+        <li>Web or native, component-based designs win</li>
+        <li>Growing demand for multi-skilled JS developers<br/><br/></li>
+        <li>ES6 + pure Javascript is the safest bet<br/><br/></li>
+      </section>
+      <section>
+        <h2 style="color: #aa99ff">Questions?<br/><br/><br/></h2>
+      </section>
+      <section>
+        <h2 style="color: #66eeaa">Thanks for listening!<br/><br/></h2>
+        <li>Slides<br/><b>rp.js.org/electron-presentation/</b><br/><br/>Twitter<br/><b>@angularjsMelb @rpocklin</b></li>
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>
+<!--nodesource.com/blog/fifteen-essential-packages-to-get-started-with-electron/-->
+<!-- App https://github.com/sindresorhus/awesome-electron#apps-->
+<!-- Boilerplate https://github.com/szwacz/electron-boilerplate-->
+<!-- el-gh https://github.com/electron/electron-->
+<!-- spectron http://electron.atom.io/spectron/-->
+<!-- web vs service workers https://nolanlawson.github.io/cascadia-2016/#/42-->
+<!--if you are worried about bad npm modules you should use snyk or nsp to detect malicious or-->
+<!--        vulnerable version of code-->
+<!--https://blog.liftsecurity.io/2015/01/27/a-malicious-module-on-npm-->
